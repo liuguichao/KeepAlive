@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">KeepAlive</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="txt_username_hint">学号</string>
+    <string name="txt_password_hint">密码</string>
+    <string name="btn_save_hint">保存</string>
+    <string name="btn_login_hint">登录</string>
+    <string name="btn_logout_hint">注销</string>
+    <string name="btn_save">btn_save</string>
+    <string name="btn_login">btn_login</string>
+    <string name="btn_logout">btn_logout</string>
+    <string name="txt_username">txt_username</string>
+    <string name="txt_password">txt_password</string>
+    <string name="txt_message">txt_message</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="SSID">ECNU</string>
+    <string name="loginFlag">登录成功窗</string>
+    <string name="logoutFlag">Msg=14</string>
+    <string name="URL">http://202.120.95.235/</string>
+    <string name="prefName">prefFile</string>
+    <string name="stateFlag">stateFlag</string>
+    <string name="actionFilter">com.test.keepalive.message</string>
+    <string name="isSuccess">isSccess</string>
+    <string name="action">action</string>
+</resources>

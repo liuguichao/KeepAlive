@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_horizontal"
+    android:orientation="vertical" android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    <EditText android:id="@+id/txt_username"  android:hint="@string/txt_username_hint" android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="number" />
+    <EditText android:id="@+id/txt_password"  android:hint="@string/txt_password_hint" android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="textPassword"/>
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <Button android:id="@+id/btn_save"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" android:text="@string/btn_save_hint"/>
+       <Button android:id="@+id/btn_login"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" android:text="@string/btn_login_hint"/>
+       <Button android:id="@+id/btn_logout"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" android:text="@string/btn_logout_hint"/>
+   </LinearLayout>
+    <TextView android:id="@+id/txt_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
